@@ -37,7 +37,7 @@ class NavbarPage extends Component {
         <Navbar
           expand="lg"
           fixed="top"
-          style={{ backgroundColor: "black" }}
+          style={{ backgroundColor: "wheat" }}
           className={"navbar-custom sticky sticky-dark " + this.props.navClass}
         >
           <Container>

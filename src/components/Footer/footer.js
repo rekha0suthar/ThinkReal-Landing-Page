@@ -46,7 +46,7 @@ class Footer extends Component {
                       src={logodark}
                       alt=""
                       className="logo-dark"
-                      height="26"
+                      height="30"
                     />
                   </Link>
                   <p className="text-muted mt-4 mb-2">

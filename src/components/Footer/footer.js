@@ -51,7 +51,10 @@ class Footer extends Component {
                   </Link>
                   <p className="text-muted mt-4 mb-2">
                     Web:{" "}
-                    <a href="https://www.thinkreal.in/">
+                    <a
+                      style={{ color: "red" }}
+                      href="https://www.thinkreal.in/"
+                    >
                       {" "}
                       https://www.thinkreal.in/
                     </a>
@@ -59,43 +62,18 @@ class Footer extends Component {
                   <h6 className="text-muted font-weight-normal">
                     +91 9845995781, +91 9845995782
                   </h6>
+                  <br />
                   <a href="https://twitter.com">
-                    <FaTwitter
-                      style={{
-                        color: "#1DA1F2",
-                        fontSize: "20px",
-                        marginRight: "5px",
-                      }}
-                    />
+                    <FaTwitter className="icons" />
                   </a>{" "}
                   <a href="https://www.facebook.com">
-                    <FaFacebook
-                      style={{
-                        color: "blue",
-                        backgroundColor: "white",
-                        fontSize: "20px",
-                        marginRight: "5px",
-                      }}
-                    />
+                    <FaFacebook className="icons" />
                   </a>{" "}
                   <a href="https://plus.google.com/">
-                    <FaGoogle
-                      style={{
-                        color: "#4285F4",
-                        fontSize: "20px",
-                        marginRight: "5px",
-                      }}
-                    />
-                  </a>
+                    <FaGoogle className="icons" />
+                  </a>{" "}
                   <a href="https://www.linkedin.com">
-                    <FaLinkedin
-                      style={{
-                        color: "blue",
-                        backgroundColor: "white",
-                        fontSize: "20px",
-                        marginRight: "5px",
-                      }}
-                    />
+                    <FaLinkedin className="icons" />
                   </a>
                 </div>
               </Col>
@@ -124,13 +102,16 @@ class Footer extends Component {
                       bangalore, 560095
                     </p>
                     <h6 className="text-muted pb-2">
-                      Email: <a href="info@thinkreal.in">info@thinkreal.in</a>
+                      Email:{" "}
+                      <a style={{ color: "red" }} href="info@thinkreal.in">
+                        info@thinkreal.in
+                      </a>
                     </h6>
                   </Col>
                 </Row>
               </Col>
             </Row>
-
+            <hr />
             {/* Render footer links */}
             <FooterLinks />
           </Container>

@@ -757,7 +757,7 @@ p {
 }
 
 .text-warning {
-  color: gray !important;
+  color: red !important;
 }
 
 .bg-warning {
@@ -774,8 +774,9 @@ p {
 
 .text-dark {
   color: black !important;
-  font-size: 30px;
-  font-family: "Abril Fatface", cursive;
+  font-size: 35px;
+  font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans,
+    Helvetica Neue, Arial, sans-serif;
 }
 
 .bg-dark {
@@ -905,7 +906,7 @@ p {
 }
 
 .f-20 {
-  font-size: 20px;
+  font-size: 30px;
 }
 
 .right-icon {
@@ -919,7 +920,11 @@ p {
   right: 0;
   left: 0;
 }
-
+.icons {
+  color: gray;
+  font-size: 20px;
+  margin-right: 10px;
+}
 /* 
 // 05.Loader
 */
@@ -977,7 +982,18 @@ p {
   -webkit-animation-delay: -1s;
   animation-delay: -1s;
 }
+#map {
+  height: 100vh;
+  width: 50vw;
+}
 
+body {
+  margin: 0px;
+}
+
+.leaflet-container {
+  height: 50vh;
+}
 @-webkit-keyframes sk-rotate {
   100% {
     -webkit-transform: rotate(360deg);

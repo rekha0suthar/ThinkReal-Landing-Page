@@ -775,8 +775,8 @@ p {
 .text-dark {
   color: black !important;
   font-size: 35px;
-  font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans,
-    Helvetica Neue, Arial, sans-serif;
+  font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans",
+    "Helvetica Neue", Arial, sans-serif;
 }
 
 .bg-dark {
